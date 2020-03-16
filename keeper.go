@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/bsm/redislock"
-	goredis "github.com/go-redis/redis"
+	goredis "github.com/go-redis/redis/v7"
 	"github.com/jpillora/backoff"
 )
 
